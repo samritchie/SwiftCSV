@@ -199,6 +199,7 @@
 				BEE5461B1CBBB0F400C0666F /* ParserHelpers.swift */,
 				BEE5461D1CBBB15900C0666F /* Description.swift */,
 				BE9B02D71CBE57B8009FE424 /* Parser.swift */,
+				827CCBB21D2D2E4C00CA663F /* Helpers */,
 			);
 			path = SwiftCSV;
 			sourceTree = "<group>";
@@ -214,6 +215,13 @@
 				E46085931CCB1F5C00385286 /* PerformanceTest.swift */,
 			);
 			path = SwiftCSVTests;
+			sourceTree = "<group>";
+		};
+		827CCBB21D2D2E4C00CA663F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		BE06B67E1CB72680009578CC /* Res */ = {
