@@ -42,7 +42,7 @@ extension CSV {
                 } else if char == self.delimiter {
                     fields.append(String(field))
                     field = [Character]()
-                } else if CSV.isNewline(char) {
+                } else if char.isNewline {
                     callBlock()
                 } else {
                     parsingField = true
@@ -66,7 +66,7 @@ extension CSV {
                         innerQuotes = false
                         fields.append(String(field))
                         field = [Character]()
-                    } else if CSV.isNewline(char) {
+                    } else if char.isNewline {
                         atStart = true
                         parsingField = false
                         innerQuotes = false
@@ -86,7 +86,7 @@ extension CSV {
                         innerQuotes = false
                         fields.append(String(field))
                         field = [Character]()
-                    } else if CSV.isNewline(char) {
+                    } else if char.isNewline {
                         atStart = true
                         parsingQuotes = false
                         innerQuotes = false
@@ -119,9 +119,5 @@ extension CSV {
             fields.append(String(field))
             block(fields)
         }
-    }
-    
-    private static func isNewline(_ char: Character) -> Bool {
-        return char == "\n" || char == "\r\n"
     }
 }
