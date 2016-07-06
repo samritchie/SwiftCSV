@@ -40,7 +40,7 @@ public class CSV {
     /// delimiter: character to split row and header fields by (default is ',')
     /// encoding: encoding used to read file (default is NSUTF8StringEncoding)
     /// loadColumns: whether to populate the columns dictionary (default is true)
-    public convenience init(name: String, delimiter: Character = .comma, encoding: String.Encoding = String.Encoding.utf8, loadColumns: Bool = true) throws {
+    public convenience init(name: String, delimiter: Character = .comma, encoding: String.Encoding = .utf8, loadColumns: Bool = true) throws {
         let contents = try String(contentsOfFile: name, encoding: encoding)
     
         self.init(string: contents, delimiter: delimiter, loadColumns: loadColumns)
@@ -52,7 +52,7 @@ public class CSV {
     /// delimiter: character to split row and header fields by (default is ',')
     /// encoding: encoding used to read file (default is NSUTF8StringEncoding)
     /// loadColumns: whether to populate the columns dictionary (default is true)
-    public convenience init(url: URL, delimiter: Character = .comma, encoding: String.Encoding = String.Encoding.utf8, loadColumns: Bool = true) throws {
+    public convenience init(url: URL, delimiter: Character = .comma, encoding: String.Encoding = .utf8, loadColumns: Bool = true) throws {
         let contents = try String(contentsOf: url, encoding: encoding)
         
         self.init(string: contents, delimiter: delimiter, loadColumns: loadColumns)
