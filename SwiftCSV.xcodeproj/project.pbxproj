@@ -195,10 +195,10 @@
 			isa = PBXGroup;
 			children = (
 				3DAAEE9B1C74C7EC00A933DB /* CSV.swift */,
-				3D444BCC1C7D88290001C60C /* String+Lines.swift */,
-				BEE5461B1CBBB0F400C0666F /* ParserHelpers.swift */,
 				BEE5461D1CBBB15900C0666F /* Description.swift */,
 				BE9B02D71CBE57B8009FE424 /* Parser.swift */,
+				BEE5461B1CBBB0F400C0666F /* ParserHelpers.swift */,
+				3D444BCC1C7D88290001C60C /* String+Lines.swift */,
 				827CCBB21D2D2E4C00CA663F /* Helpers */,
 			);
 			path = SwiftCSV;
