@@ -45,6 +45,10 @@
 		5FB74BED1CCB932B009DDBF1 /* empty_fields.csv in Resources */ = {isa = PBXBuildFile; fileRef = BE06B67C1CB7267B009578CC /* empty_fields.csv */; };
 		5FB74BEE1CCB932B009DDBF1 /* quotes.csv in Resources */ = {isa = PBXBuildFile; fileRef = BE06B6811CB7287F009578CC /* quotes.csv */; };
 		5FB74BEF1CCB932B009DDBF1 /* large.csv in Resources */ = {isa = PBXBuildFile; fileRef = E46085911CCB1E8F00385286 /* large.csv */; };
+		827CCBB41D2D2F4600CA663F /* Character+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827CCBB31D2D2F4600CA663F /* Character+Convenience.swift */; };
+		827CCBB51D2D2F4600CA663F /* Character+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827CCBB31D2D2F4600CA663F /* Character+Convenience.swift */; };
+		827CCBB61D2D2F4600CA663F /* Character+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827CCBB31D2D2F4600CA663F /* Character+Convenience.swift */; };
+		827CCBB71D2D2F4600CA663F /* Character+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827CCBB31D2D2F4600CA663F /* Character+Convenience.swift */; };
 		BE06B67D1CB7267B009578CC /* empty_fields.csv in Resources */ = {isa = PBXBuildFile; fileRef = BE06B67C1CB7267B009578CC /* empty_fields.csv */; };
 		BE06B6801CB726B5009578CC /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE06B67F1CB726B5009578CC /* URLTests.swift */; };
 		BE06B6821CB7287F009578CC /* quotes.csv in Resources */ = {isa = PBXBuildFile; fileRef = BE06B6811CB7287F009578CC /* quotes.csv */; };
@@ -99,6 +103,7 @@
 		5FB74BAD1CCB929D009DDBF1 /* SwiftCSV-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SwiftCSV-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB74BB61CCB929D009DDBF1 /* SwiftCSVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCSVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB74BC91CCB92BA009DDBF1 /* SwiftCSV-watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SwiftCSV-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827CCBB31D2D2F4600CA663F /* Character+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Character+Convenience.swift"; sourceTree = "<group>"; };
 		BE06B67C1CB7267B009578CC /* empty_fields.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = empty_fields.csv; sourceTree = "<group>"; };
 		BE06B67F1CB726B5009578CC /* URLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTests.swift; sourceTree = "<group>"; };
 		BE06B6811CB7287F009578CC /* quotes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quotes.csv; sourceTree = "<group>"; };
@@ -220,6 +225,7 @@
 		827CCBB21D2D2E4C00CA663F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				827CCBB31D2D2F4600CA663F /* Character+Convenience.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -522,6 +528,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE5461E1CBBB15900C0666F /* Description.swift in Sources */,
+				827CCBB41D2D2F4600CA663F /* Character+Convenience.swift in Sources */,
 				3DAAEE9C1C74C7EC00A933DB /* CSV.swift in Sources */,
 				BE9B02D81CBE57B8009FE424 /* Parser.swift in Sources */,
 				3D444BCD1C7D88290001C60C /* String+Lines.swift in Sources */,
@@ -546,6 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FB74BD11CCB92E5009DDBF1 /* CSV.swift in Sources */,
+				827CCBB51D2D2F4600CA663F /* Character+Convenience.swift in Sources */,
 				5FB74BD21CCB92E5009DDBF1 /* String+Lines.swift in Sources */,
 				5FB74BD31CCB92E5009DDBF1 /* ParserHelpers.swift in Sources */,
 				5FB74BD41CCB92E5009DDBF1 /* Description.swift in Sources */,
@@ -570,6 +578,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FB74BD61CCB92EB009DDBF1 /* CSV.swift in Sources */,
+				827CCBB61D2D2F4600CA663F /* Character+Convenience.swift in Sources */,
 				5FB74BD71CCB92EB009DDBF1 /* String+Lines.swift in Sources */,
 				5FB74BD81CCB92EB009DDBF1 /* ParserHelpers.swift in Sources */,
 				5FB74BD91CCB92EB009DDBF1 /* Description.swift in Sources */,
@@ -594,6 +603,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FB74BDB1CCB92F1009DDBF1 /* CSV.swift in Sources */,
+				827CCBB71D2D2F4600CA663F /* Character+Convenience.swift in Sources */,
 				5FB74BDC1CCB92F1009DDBF1 /* String+Lines.swift in Sources */,
 				5FB74BDD1CCB92F1009DDBF1 /* ParserHelpers.swift in Sources */,
 				5FB74BDE1CCB92F1009DDBF1 /* Description.swift in Sources */,
