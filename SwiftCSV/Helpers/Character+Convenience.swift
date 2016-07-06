@@ -2,6 +2,9 @@
 
 extension Character {
 
+    /// A comma.
+    static var comma: Character { return "," }
+
     /// Whether or not `self` is a new-line character.
     var isNewline: Bool {
 
