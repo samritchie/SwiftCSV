@@ -24,7 +24,7 @@ extension CSV {
         var count = 0
         let doLimit = limitTo != nil
         
-        let callBlock: () -> () = {
+        let callBlock: @noescape () -> () = {
             fields.append(String(field))
             if count >= startAt {
                 block(fields)
@@ -34,7 +34,7 @@ extension CSV {
             field = [Character]()
         }
         
-        let changeState: (Character) -> (Bool) = { char in
+        let changeState: @noescape (Character) -> (Bool) = { char in
             if atStart {
                 if char == "\"" {
                     atStart = false
